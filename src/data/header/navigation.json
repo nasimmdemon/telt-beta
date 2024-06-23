@@ -1,6 +1,6 @@
 [
   {
-    "title": "Home",
+    "title": "Hem",
     "to": "#!",
     "subMenu": [
       {
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "title": "Solutions",
+    "title": "Lösningar",
     "to": "#!",
     "subMenu": [
       {
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "title": "Company",
+    "title": "Företag",
     "to": "#!",
     "subMenu": [
       {
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "title": "Case Studies",
+    "title": "Fallstudier",
     "to": "#!",
     "subMenu": [
       {
@@ -156,7 +156,7 @@
     ]
   },
   {
-    "title": "Blog",
+    "title": "Blogg",
     "to": "#!",
     "subMenu": [
       {
@@ -182,44 +182,6 @@
       {
         "title": "Blog Details 2",
         "to": "/blog/detail2"
-      }
-    ]
-  },
-  {
-    "title": "Pages",
-    "to": "#!",
-    "subMenu": [
-      {
-        "title": "Contact Us",
-        "to": "/pages/contact-us"
-      },
-      {
-        "title": "FAQs",
-        "to": "/pages/faqs"
-      },
-      {
-        "title": "Error 404",
-        "to": "/pages/error"
-      },
-      {
-        "title": "Login/Register",
-        "to": "/pages/login"
-      },
-      {
-        "title": "Our Shop",
-        "to": "/pages/our-shop"
-      },
-      {
-        "title": "Products Detail",
-        "to": "/pages/products-detail"
-      },
-      {
-        "title": "Shopping Cart",
-        "to": "/pages/cart"
-      },
-      {
-        "title": "Checkout",
-        "to": "/pages/checkout"
       }
     ]
   }

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState, useRef, useEffect } from "react";
 import { useSelector } from "react-redux";
@@ -32,36 +32,21 @@ export default function MenuFunctionIcons(props) {
               <span className="icon bg-white text-blue w-8 h-8 flex items-center justify-center rounded-full">
                 <Icon.PhoneCall className="text-2xl flex-shrink-0" />
               </span>
-              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">1-333-345-6868</span>
+              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">
+                +46 70-780 92 99
+              </span>
             </div>
           )}
-          <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link>
+          <Link
+            href={"/pages/contact-us"}
+            className="button-main text-button-sm max-sm:hidden"
+          >
+            Kontakt
+          </Link>
         </div>
         <div className="list__icons flex items-center">
-          {!hide.includes("search") && (
-            <button
-              className="menu-icon -search flex-shrink-0"
-              onClick={(e) => {
-                e.preventDefault();
-                setShowSearch(true);
-              }}
-              style={{ marginRight: hide.includes("cart") && 0 }}
-            >
-              <Icon.MagnifyingGlass className="text-2xl" />
-            </button>
-          )}
           {!hide.includes("cart") && (
             <>
-              <button
-                className="menu-icon -cart flex-shrink-0"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setShowCart(!showCart);
-                }}
-              >
-                <Icon.Handbag className="text-2xl" />
-                <span className="cart__quantity">{cartState.length}</span>
-              </button>
               <button
                 className="menu-icon -navbar flex-shrink-0"
                 onClick={(e) => {
@@ -74,7 +59,12 @@ export default function MenuFunctionIcons(props) {
             </>
           )}
           {!hide.includes("button") && (
-            <Link href={'/pages/contact-us'} className="button-main max-sm:hidden ml-4">Get A quote</Link>
+            <Link
+              href={"/pages/contact-us"}
+              className="button-main max-sm:hidden ml-4"
+            >
+              Get A quote
+            </Link>
           )}
         </div>
       </div>
